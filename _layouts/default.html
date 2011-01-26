@@ -1,8 +1,12 @@
 <html lang="en">
 	<head>
-		<title>PAGE TITLE</title>
+		<title>James Cline {% if page.title %} &mdash; {{ page.title }} {% endif %}</title>
+		<link rel="stylesheet" media="screen, project" href="/assets/screen.css" type="text/css">
+		<link rel="stylesheet" media="print" href="/assets/print.css" type="text/css">
 	</head>
 	<body>
+		<div class="wrapper content">
 		{{ content }}
+		</div>
 	</body>
 </html>
