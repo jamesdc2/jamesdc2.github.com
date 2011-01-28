@@ -3,7 +3,7 @@ body {
     color:  #020202;
     margin: 0 auto;
     width: 960px;
-    line-height: 1.6;
+    line-height: 1.5em;
     font-family: "Verdana";
 }
 
@@ -31,4 +31,10 @@ header ul.navigation li a {
 header ul.navigation li a:hover {
     color: #3465a4;
     text-decoration: underline;
+}
+
+p {
+     font-family: Georgia, "Times New Roman", times, serif;
+     font-weight: normal;
+     margin-bottom: 24px;
 }
