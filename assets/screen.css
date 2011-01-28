@@ -3,4 +3,23 @@ body {
     color:  #020202;
     margin: 0 auto;
     width: 960px;
+    line-height: 1.6;
+    font-family: "Georgia, Times New Roman, serif";
+}
+
+header ul.navigation {
+    text-align: left;
+    float: right;
+}
+
+header ul.navigation ul {
+    display: inline-block;
+    list-style: none;
+    margin-left: 1.5em;
+}
+
+header ul.navigation li a {
+    color: #020202;
+    text-decoration: underline;
+    font-size: 11px;
 }
