@@ -35,6 +35,16 @@ header ul.navigation li a:hover {
     text-decoration: underline;
 }
 
+hr {
+   border-color: #DEDEDE;
+   border-style: dotted none none;
+   border-width: 1px 0 0;
+   height: 1px;
+   margin-bottom 24px;
+   width: 58em;
+
+}
+
 p {
      font-family: Georgia, "Times New Roman", times, serif;
      font-weight: normal;
