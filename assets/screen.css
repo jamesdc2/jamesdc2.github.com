@@ -16,7 +16,7 @@ header ul.navigation {
     float: right;
 }
 
-header ul.navigation ul {
+header ul.navigation li {
     display: inline-block;
     list-style: none;
     margin-left: 1em;
@@ -26,4 +26,8 @@ header ul.navigation li a {
     color: #020202;
     text-decoration: underline;
     font-size: 11px;
+}
+
+header ul.navigation li a:hover {
+    color: #020202;
 }
