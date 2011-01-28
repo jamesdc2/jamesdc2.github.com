@@ -7,6 +7,10 @@ body {
     font-family: "Georgia, Times New Roman, serif";
 }
 
+header {
+    display: block;
+}
+
 header ul.navigation {
     text-align: left;
     float: right;
@@ -15,7 +19,7 @@ header ul.navigation {
 header ul.navigation ul {
     display: inline-block;
     list-style: none;
-    margin-left: 1.5em;
+    margin-left: 1em;
 }
 
 header ul.navigation li a {
