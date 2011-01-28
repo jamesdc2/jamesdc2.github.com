@@ -25,13 +25,13 @@ header ul.navigation li {
 }
 
 header ul.navigation li a {
-    color: #204a87;
+    color: #3465a4;
     text-decoration: none;
     font-size: 1.4em;
 }
 
 header ul.navigation li a:hover {
-    color: #3465a4;
+    color: #204a87;
     text-decoration: underline;
 }
 
