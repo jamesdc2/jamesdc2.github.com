@@ -3,8 +3,29 @@ body {
     color:  #020202;
     margin: 0 auto;
     line-height: 1.5em;
-    font-family: "Verdana";
+    font: 13px "Georgia", serif;
     max-width: 60em;
+}
+
+h1,h2,h3,h4 {
+   font-family: helvetica, 'Verdana', sans-serif;
+   margin: 2em 0 1em 0;
+   -webkit-font-smoothing: antialiased;
+   text-rendering: optimizelegibility;
+}
+
+h1, h3 { font-size: 16px; }
+h2 { font-size: 18px; }
+h4 { font-size: 14px; color: #666; }
+h5, h6 { font-size: 12px; color: #888 }
+
+a { text-decoration: none; }
+a:link:hover, a:active:hover, a:visited:hover { text-decoration: underline }
+a.img { border: none; background:transparent; }
+
+h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a, h1 > a:hover, h2 > a:hover, h3 > a:hover, h4 > a:hover, h5 > a:hover, h6 > a:hover {
+   color: inherit !important;
+   background-color:transparent !important;
 }
 
 header {
