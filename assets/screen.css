@@ -1,5 +1,4 @@
 body {
-    background: #fff;
     color:  #020202;
     margin: 0 auto;
     line-height: 1.5em;
@@ -32,7 +31,8 @@ h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a, h1 > a:hover, h2 > a:hover, h3 >
     display: block;
     margin: 0 -999em;
     padding: 0 999em;
-    background: #333;
+    background: url('/assets/headerbg.png') repeat-x;
+    height: 80px;
 }
 
 #header h1.branding {
