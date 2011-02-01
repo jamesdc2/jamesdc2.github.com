@@ -28,30 +28,36 @@ h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a, h1 > a:hover, h2 > a:hover, h3 >
    background-color:transparent !important;
 }
 
-header {
+#header {
     display: block;
     margin: 0 -999em;
     padding: 0 999em;
+    background: #333;
 }
 
-header ul.navigation {
+#header h1.branding {
+    float: left;
+    color: #ffffff;
+}
+
+#header ul.navigation {
     text-align: left;
     float: right;
 }
 
-header ul.navigation li {
+#header ul.navigation li {
     display: inline-block;
     list-style: none;
     margin-left: 1em;
 }
 
-header ul.navigation li a {
+#header ul.navigation li a {
     color: #3465a4;
     text-decoration: none;
     font-size: 1.4em;
 }
 
-header ul.navigation li a:hover {
+#header ul.navigation li a:hover {
     color: #204a87;
     text-decoration: underline;
 }
