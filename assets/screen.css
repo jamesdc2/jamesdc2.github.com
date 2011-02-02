@@ -2,7 +2,7 @@ body {
     color:  #020202;
     margin: 0 auto;
     line-height: 1.5em;
-    font: 13px "Georgia", serif;
+    font: lighter 13px "Georgia", serif;
     max-width: 60em;
 }
 
@@ -52,13 +52,13 @@ h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a, h1 > a:hover, h2 > a:hover, h3 >
 }
 
 #header ul.navigation li a {
-    color: #3465a4;
+    color: #EEEEEE;
     text-decoration: none;
     font-size: 1.4em;
 }
 
 #header ul.navigation li a:hover {
-    color: #204a87;
+    color: #FFFFFF;
     text-decoration: underline;
 }
 
@@ -73,7 +73,5 @@ hr {
 }
 
 p {
-     font-family: Georgia, "Times New Roman", times, serif;
-     font-weight: normal;
      margin-bottom: 24px;
 }
