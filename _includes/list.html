@@ -1,8 +1,11 @@
 <div class="post">
-   <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+   <div class="post-datestamp">
+        <span class="date">{{ post.date }}</span>
+        <span class="mon-year"></span>
+   </div>
    <div class="post-content">
-        <div class="datestamp">{{ post.date }}</div>
-            {{ post.content }}
+   <h2 class="post-title">><a href="{{ post.url }}">{{ post.title }}</a></h2>
+   {{ post.content }}
    </div>
    <hr>
 </div>
