@@ -63,18 +63,9 @@ h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a, h1 > a:hover, h2 > a:hover, h3 >
     text-decoration: underline;
 }
 
-.post {
-    max-width: 60em;
-    padding: 5px;
-}
-
 .post-datestamp {
     float: left;
     width: 10%;
-}
-
-.post-content {
-    float:right;
 }
 
 hr {
