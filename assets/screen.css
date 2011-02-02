@@ -63,6 +63,14 @@ h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a, h1 > a:hover, h2 > a:hover, h3 >
     text-decoration: underline;
 }
 
+#post-date {
+    float: left;
+}
+
+#post-content {
+    float:right;
+}
+
 hr {
    border-color: #DEDEDE;
    border-style: dotted none none;
