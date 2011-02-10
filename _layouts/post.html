@@ -3,8 +3,8 @@ layout: default
 ---
 <div class="post">
    <div class="post-date">
-      <span class="date" style="clear: both;">{{ page.date | date: '%d' }}</span>
-      <span class="month-year">{{ page.date }}</span>
+      <span class="date">{{ page.date | date: '%d' }}</span>
+      <span class="month-year">{{ page.date | date: '%m %y' }}</span>
    </div>
    <div post-content>
    <h2>{{ page.title }}</h2>
