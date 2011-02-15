@@ -2,7 +2,7 @@
 	<head>
 		<title>James Cline {% if page.title %} &mdash; {{ page.title }} {% endif %}</title>
 		<link rel="stylesheet" media="screen, project" href="/assets/grid.css" type="text/css">
-        <link rel="stylesheet" media="screen, project" href="/assets/screen.css" type="text/css">
+      <link rel="stylesheet" media="screen, project" href="/assets/screen.css" type="text/css">
 		<link rel="stylesheet" media="print" href="/assets/print.css" type="text/css">
 		<script type="text/javascript" src="http://use.typekit.com/mgc8iqs.js"></script>
 		<script type="text/javascript">
@@ -12,17 +12,24 @@
 	</script>	
 	</head>
 	<body>
-        <div id="header">
-            <a href="/"><div class="branding">James Cline</div></a>
-            <ul class="navigation">
+        <div class="container_3">
+            <ul class="navigation grid_3">
                 <li><a href="/about/">About Me</a></li>
                 <li><a href="/archives/">Archives</a></li>
             </ul>
         </div>
-	<div class="wrapper content">
+	<div class="wrapper content container_3">
+		<div class="left-side grid_1">
+			<p>Right Column!</p>
+		</div>
+		<div class="grid_2">
 	   {{ content }}
+		</div>
 	</div>
-        <div class="footer">
-        </div>
+	<div class="container_3">
+			<div class="grid_3">
+				FOOTER!
+			</div>
+   </div>
 	</body>
 </html>
