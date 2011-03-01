@@ -27,15 +27,12 @@ h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a, h1 > a:hover, h2 > a:hover, h3 >
    background-color:transparent !important;
 }
 
-#header {
-    height: 100px;
-    display: block;
-}
-
-#header img.branding {
+.branding {
     float: left;
     color: #ffffff;
     margin-top: 23px;
+    background: #333333;
+    font-family: 'Georgia', 'Times New Roman', serif;
 }
 
 ul.navigation {
@@ -47,17 +44,19 @@ ul.navigation li {
     display: inline-block;
     list-style: none;
     margin-left: 1em;
+    border-bottom: 1px solid #333333;
 }
 
 ul.navigation li a {
-    color: #EEEEEE;
+    color: #333333;
     text-decoration: none;
     font-size: 1.4em;
 }
 
-#header ul.navigation li a:hover {
+ul.navigation li:hover {
     color: #FFFFFF;
     text-decoration: underline;
+    border-bottom: 1px solid #204a87;
 }
 
 .post-datestamp {
