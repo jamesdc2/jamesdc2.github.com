@@ -56,7 +56,6 @@ ul.navigation li {
 ul.navigation li a {
     display: block;
     color: #333333;
-    border-bottom: 1px solid #333333;
     text-decoration: none;
     line-height: 50px;
 }
