@@ -31,7 +31,7 @@ h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a, h1 > a:hover, h2 > a:hover, h3 >
     float: left;
     color: #ffffff;
     margin-top: 23px;
-    padding: 20px 80px 20px 20px;
+    padding: 40px 120px 40px 40px;
     background: #333333;
     font-family: 'Georgia', 'Times New Roman', serif;
     font-style: italic;
@@ -51,19 +51,14 @@ ul.navigation li {
 ul.navigation li a {
     display: block;
     color: #333333;
-    border-bottom: 2px solid #00ff00;
+    border-bottom: 2px solid #333333;
     text-decoration: none;
     font-size: 1.4em;
 }
 
-ul.navigation li:hover {
-    color: #FFFFFF;
-    text-decoration: underline;
-    border-bottom: 1px solid #204a87;
-}
-
-ul.navigation a:hover {
+ul.navigation li a:hover {
     text-decoration: none;
+    border-bottom: 1px solid #00ff00;
 }
 
 p {
