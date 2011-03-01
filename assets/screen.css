@@ -43,13 +43,13 @@ ul.navigation {
     float: right;
 }
 
-#header ul.navigation li {
+ul.navigation li {
     display: inline-block;
     list-style: none;
     margin-left: 1em;
 }
 
-#header ul.navigation li a {
+ul.navigation li a {
     color: #EEEEEE;
     text-decoration: none;
     font-size: 1.4em;
