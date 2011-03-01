@@ -60,7 +60,7 @@ ul.navigation li a {
     line-height: 50px;
 }
 
-ul.navigation li a:hover {
+ul.navigation li a:hover, ul.navigation li a:active {
     text-decoration: none;
     border-bottom: 1px solid #204a87;
 }
