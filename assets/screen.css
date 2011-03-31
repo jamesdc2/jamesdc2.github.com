@@ -71,10 +71,12 @@ p {
      margin-bottom: 24px;
 }
 
+/*
 p+p {
      text-indent: 1em;
      margin-top: -24px;
 }
+*/
 ul, ol {
     margin-bottom: 24px;
 }
