@@ -33,8 +33,7 @@ h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a, h1 > a:hover, h2 > a:hover, h3 >
    margin: 0;
    font-style: italic;
    color: #204a87;
-   font-family: Cambria, Georgia, Times, serif;
-   height: 50px;
+   font: lighter 50px Cambria, Georgia, Times, serif;
 }
 
 #menu {
