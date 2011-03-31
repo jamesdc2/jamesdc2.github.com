@@ -9,7 +9,6 @@ body {
 
 h1,h2,h3,h4 {
    font-family: Helvetica, Verdana, Arial, sans-serif;
-   font-style: italic;
    margin: 2em 0 1em 0;
    font-weight: bold;
    -webkit-font-smoothing: antialiased;
@@ -58,6 +57,7 @@ ul.navigation li a {
     color: #333333;
     text-decoration: none;
     line-height: 50px;
+    border-bottom: 1px solid #eee;
 }
 
 ul.navigation li a:hover, ul.navigation li a:active {
