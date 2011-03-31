@@ -35,6 +35,8 @@ h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a, h1 > a:hover, h2 > a:hover, h3 >
    color: #204a87;
    font-weight: light;
    font-family: Cambria, Georgia, Times, serif;
+   height: 50px;
+   border-bottom: 1px dashed #eee;
 }
 
 #menu {
@@ -51,7 +53,7 @@ ul.navigation {
 ul.navigation li {
     display: inline-block;
     list-style: none;
-    margin-right: 3em;
+    margin-right: 1.25em;
 }
 
 ul.navigation li a {
@@ -59,7 +61,7 @@ ul.navigation li a {
     color: #333333;
     text-decoration: none;
     line-height: 50px;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px dashed #eee;
 }
 
 ul.navigation li a:hover, ul.navigation li a:active {
