@@ -2,13 +2,12 @@ body {
     color:  #333333;
     margin: 0 auto;
     line-height: 1.5em;
-    font: lighter 1.0em Verdana, Arial, sans-serif;
-    width: 940px;
-    padding-top: 72px;
+    font: lighter 1.0em Cambria, Georgia, Times, serif;
+    padding-top: 24px;
 }
 
 h1,h2,h3,h4 {
-   font-family: helvetica, 'Verdana', sans-serif;
+   color: #aaa;
    margin: 2em 0 1em 0;
    font-weight: bold;
    -webkit-font-smoothing: antialiased;
@@ -33,9 +32,7 @@ h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a, h1 > a:hover, h2 > a:hover, h3 >
     float: left;
     color: #ffffff;
     margin-top: 23px;
-    padding: 40px 120px 40px 40px;
     background: #333333;
-    font-family: 'Georgia', 'Times New Roman', serif;
     font-style: italic;
 }
 
