@@ -2,11 +2,11 @@
 layout: default
 ---
 <div class="post">
-   <div class="post-date">
-      <span class="date">{{ page.date | date: '%d' }}</span>
-      <span class="month-year">{{ page.date | date: '%b %y' }}</span>
+   <div class="grid_2 post-date">
+      {{ page.date | date: '%B %d, %Y' }}
    </div>
-   <div post-content>
-   <h2>{{ page.title }}</h2>
-   {{ content }}
+   <div class="grid_8 suffix_2 post-content">
+        <h2>{{ page.title }}</h2>
+        {{ content }}
+   </div>
 </div>
