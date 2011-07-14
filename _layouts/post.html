@@ -1,11 +1,14 @@
 ---
 layout: default
 ---
-<div class="post">
-   <div class="grid_2 post-date">
-      {{ page.date | date: '%B %d, %Y' }}
+<div class="posts">
+   <div class="grid_1 prefix_2">
+      <div class="date">
+         <span class="month">{{ page.date | date: "%b" }}</span>
+         <span class="day">{{ page.date | date: "%d" }}</span>
+      </div>
    </div>
-   <div class="grid_8 suffix_2 post-content">
+   <div class="grid_7 suffix_2 post-content">
         <h2>{{ page.title }}</h2>
         {{ content }}
    </div>
