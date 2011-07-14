@@ -37,13 +37,17 @@ h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a, h1 > a:hover, h2 > a:hover, h3 >
    text-decoration: none;
 }
 
+.date {
+    border-top: 2px solid #CCC;
+    text-align: center;
+    line-height: 1.25;
+    color: #555753;
+    font-size: 1.2em;
+    text-transform: lowercase;
+    font-variant: small-caps;
+}
 .date .month, .date .day {
-  color: #000;
   display: block;
-  font-variant: small-caps;
-  text-transform: lowercase;
-  font-size: 1.2em;
-  border-top: 2px solid #CCC;
 }
 
 #posts {
