@@ -17,3 +17,7 @@ You can find me on a variety of social web sites:
 - [Flickr](http://www.flickr.com/photos/walkitiki) &mdash; I dabble in photography
 - [GitHub](http://www.github.com/jamesdc2) &mdash; Where I host my projects
 - [LinkedIn](http://www.linkedin.com/in/jamesrcline/) &mdash; Professional profile
+
+## About this site
+
+This site is powered [Jekyll](https://github.com/mojombo/jekyll/) and GitHub pages and was hand built in [Vim](http://vim.org). 
