@@ -20,4 +20,4 @@ You can find me on a variety of social web sites:
 
 ## About this site
 
-This site is powered [Jekyll](https://github.com/mojombo/jekyll/) and GitHub pages and was hand built in [Vim](http://vim.org). 
+This site is powered [Jekyll](https://github.com/mojombo/jekyll/) and GitHub pages and was hand built in [Vim](http://www.vim.org). 
