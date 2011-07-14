@@ -9,7 +9,7 @@ body {
 
 h1,h2,h3,h4 {
    font-family: Helvetica, Verdana, Arial, sans-serif;
-   margin: 24px 0 12px 0;
+   margin-bottom: 1em;
    font-weight: bold;
    -webkit-font-smoothing: antialiased;
    text-rendering: optimizelegibility;
@@ -38,8 +38,11 @@ h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a, h1 > a:hover, h2 > a:hover, h3 >
 }
 
 .date {
-  margin-top: 24px;
   color: #bbb;
+}
+
+#posts {
+    margin: 4.5em auto 0;
 }
 
 #menu {
