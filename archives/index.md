@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Old stuff..
+layout: page
+title: Archives
 ---
 
 # Archives
