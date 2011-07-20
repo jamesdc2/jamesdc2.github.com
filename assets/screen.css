@@ -125,5 +125,6 @@ blockquote b {
     border-top: 1px solid #eee;
     font-size: 0.7em;
     margin: 40px 0;
-    
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+    font-weight: bold;
 }
