@@ -120,3 +120,7 @@ blockquote b {
     display: block;
     text-indent: 0;
 }
+
+#footer {
+    margin-top: 20px;
+}
