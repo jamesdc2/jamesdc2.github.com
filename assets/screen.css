@@ -122,5 +122,8 @@ blockquote b {
 }
 
 #footer {
-    margin-top: 20px;
+    border-top: 1px solid #eee;
+    font-size: 0.5em;
+    margin: 40px 0;
+    
 }
