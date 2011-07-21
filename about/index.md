@@ -5,7 +5,7 @@ title: About
 
 # About me
 
-My name is James Cline. I'm a software developer in Reston, Virginia with my wife and son. Professionally, I work on enterprise java applications. When I'm not at work, I work on a variety of projects and try my best at being a Dad.
+My name is James Cline. I'm a software engineer in Reston, Virginia with my wife and son. Professionally, I work on develop enterprise java applications. When I'm not at my desk, I work on a slew of projects and try my best at being a Dad.
 
 For more information about my work history, [check out my r&eacute;sum&eacute;](/about/resume/).
 
