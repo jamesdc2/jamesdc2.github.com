@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-# About me
+# About me ![me](../assets/avatar.png "James")
 
 My name is James Cline. I'm a software engineer in Reston, Virginia with my wife and son. Professionally, I develop enterprise java applications. When I'm not at my desk, I work on a slew of projects and try my best at being a Dad.
 
