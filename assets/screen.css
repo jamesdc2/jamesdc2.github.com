@@ -115,12 +115,12 @@ ul > li {
    margin-left: 1.4em;
 }
 
-body div.content [align="right"] {
+body div.post [align="right"] {
    margin-bottom: 1em;
    margin-left: 1em;
 }
 
-body div.content img {
+body div.post img {
    max-width: 100%;
 }
 
